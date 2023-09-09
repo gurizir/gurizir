@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int p;
+    short int q;
+    long int r;
+    double s;
+    cout<<"Integer -"<<sizeof(p)<<endl;
+    cout<<"Short Int -"<<sizeof(q)<<endl;
+    cout<<"Long Int -"<<sizeof(r)<<endl;
+    cout<<"Double -"<<sizeof(s)<<endl;
+}
