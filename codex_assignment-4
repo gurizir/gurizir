@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    float a,b;
+    char c;
+    cout<<"Enter operator: +,-,*,/,|:";
+    cin>>c;
+    cout<<"Enter Number 1:";
+    cin>>a;
+    cout<<"Enter Number 2:";
+    cin>>b;
+    if(c=='+'){
+        cout<<"Sum="<<a+b;
+    }
+    else if(c=='-'){
+        cout<<"Difference="<<a-b;
+    }
+    else if(c=='*'){
+        cout<<"Product="<<a*b;
+    }
+    else if(c=='/'){
+        cout<<"Quotient="<<a/b;
+    }
+    else if(c=='|'){
+        cout<<"Absolute Value 1:"<<abs(a)<<endl;
+        cout<<"Absolute Value 2:"<<abs(b)<<endl;
+    }
+    else{
+        cout<<"Invalid Input";
+    }
+}
